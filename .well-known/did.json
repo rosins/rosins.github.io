@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/did/v1",
+        "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "id": "did:web:rosins.github.io",
+    "verificationMethod": [
+        {
+            "id": "did:web:rosins.github.io#jA8bCaSqomRQv5YtPGTWuh1bN5AvDyacu63OYuBPb6Y",
+            "type": "JsonWebKey2020",
+            "controller": "did:web:api-dv.credivera.com:identifiers:9td3c3sn6jfqd96b15x0nt1rdke09ctm",
+            "publicKeyJwk": {
+                "kty": "EC",
+                "kid": "jA8bCaSqomRQv5YtPGTWuh1bN5AvDyacu63OYuBPb6Y",
+                "crv": "secp256k1",
+                "x": "6_XrqDXfZt6RI366OekrzKMtuYHRe_30Qi81oVp9CSM",
+                "y": "Ye2HFC4vLa3OQIJJYxd1wdB_aBdCxnEAy7KC-4cksRA"
+            }
+        }
+    ],
+    "authentication": [
+      "did:web:rosins.github.io#jA8bCaSqomRQv5YtPGTWuh1bN5AvDyacu63OYuBPb6Y"
+    ]
+  }
